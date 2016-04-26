@@ -1,0 +1,1307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03034E2E92C2E1FB8B013039 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD3F108A3031CEB7D25CDF0 /* libPods.a */; };
+		3D0050361C5F13CC005CD834 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0050351C5F13CC005CD834 /* NSObject+Swizzling.m */; };
+		3D06E0F91C5BD2340058AEDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E0F81C5BD2340058AEDD /* main.m */; };
+		3D06E0FC1C5BD2340058AEDD /* PYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D06E0FB1C5BD2340058AEDD /* PYAppDelegate.m */; };
+		3D06E1021C5BD2340058AEDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E1001C5BD2340058AEDD /* Main.storyboard */; };
+		3D06E1041C5BD2340058AEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E1031C5BD2340058AEDD /* Assets.xcassets */; };
+		3D06E1071C5BD2340058AEDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D06E1051C5BD2340058AEDD /* LaunchScreen.storyboard */; };
+		3D25FC771C799801007F34FE /* HPJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D25FC761C799801007F34FE /* HPJAlertView.m */; };
+		3D25FC7D1C79980E007F34FE /* PYLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D25FC7A1C79980E007F34FE /* PYLoadingView.m */; };
+		3D25FC7E1C79980E007F34FE /* PYNetworkUnavailableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D25FC7C1C79980E007F34FE /* PYNetworkUnavailableView.m */; };
+		3D25FC841C799D7E007F34FE /* RMDisplayLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D25FC811C799D7E007F34FE /* RMDisplayLabel.m */; };
+		3D25FC851C799D7E007F34FE /* RMDownloadIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D25FC831C799D7E007F34FE /* RMDownloadIndicator.m */; };
+		3D2DED3B1C9E55B2004D5E8D /* wenjuan in Resources */ = {isa = PBXBuildFile; fileRef = 3D2DED3A1C9E55B2004D5E8D /* wenjuan */; };
+		3D35A3291C5DD8AC009A56FE /* BaseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D35A3281C5DD8AC009A56FE /* BaseViewCell.m */; };
+		3D35A32C1C5DD8BE009A56FE /* PYTaskViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D35A32B1C5DD8BE009A56FE /* PYTaskViewCell.m */; };
+		3D35A3361C5E0DBD009A56FE /* PYUndownloadTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D35A3351C5E0DBD009A56FE /* PYUndownloadTaskDetailViewController.m */; };
+		3D3F239A1C5CD7B90050E21B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F239C1C5CD7B90050E21B /* Localizable.strings */; };
+		3D3F23AB1C5CE1670050E21B /* INTULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23A71C5CE1670050E21B /* INTULocationManager.m */; };
+		3D3F23AC1C5CE1670050E21B /* INTULocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23A91C5CE1670050E21B /* INTULocationRequest.m */; };
+		3D3F23AF1C5CED150050E21B /* PYHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23AE1C5CED150050E21B /* PYHomeView.m */; };
+		3D3F23B21C5CF89B0050E21B /* PYQuestionnaire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23B01C5CF89B0050E21B /* PYQuestionnaire.xcdatamodeld */; };
+		3D3F23BD1C5CFB4B0050E21B /* PYLoginUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23BC1C5CFB4B0050E21B /* PYLoginUserManager.m */; };
+		3D3F23C11C5D00860050E21B /* PYQuestionnaireManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23C01C5D00860050E21B /* PYQuestionnaireManager.m */; };
+		3D3F23D51C5D32580050E21B /* PYManagedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23D01C5D32580050E21B /* PYManagedUser.m */; };
+		3D3F23D61C5D32580050E21B /* PYManagedUser+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23D21C5D32580050E21B /* PYManagedUser+CoreDataProperties.m */; };
+		3D3F23DB1C5DB6300050E21B /* PYManagedQuestionnaire.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23D81C5DB6300050E21B /* PYManagedQuestionnaire.m */; };
+		3D3F23DC1C5DB6300050E21B /* PYManagedQuestionnaire+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23DA1C5DB6300050E21B /* PYManagedQuestionnaire+CoreDataProperties.m */; };
+		3D3F23FE1C5DBE910050E21B /* PYSurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23E31C5DBE910050E21B /* PYSurveyViewController.m */; };
+		3D3F23FF1C5DBE910050E21B /* PYDownloadedTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23E91C5DBE910050E21B /* PYDownloadedTaskListViewController.m */; };
+		3D3F24001C5DBE910050E21B /* PYUserHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23EE1C5DBE910050E21B /* PYUserHandler.m */; };
+		3D3F24011C5DBE910050E21B /* PYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23F11C5DBE910050E21B /* PYUser.m */; };
+		3D3F24021C5DBE910050E21B /* PYImproveInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23F41C5DBE910050E21B /* PYImproveInfoViewController.m */; };
+		3D3F24031C5DBE910050E21B /* PYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23F61C5DBE910050E21B /* PYLoginViewController.m */; };
+		3D3F24041C5DBE910050E21B /* PYImproveInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23F91C5DBE910050E21B /* PYImproveInfoView.m */; };
+		3D3F24051C5DBE910050E21B /* PYImproveTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23FB1C5DBE910050E21B /* PYImproveTitleView.m */; };
+		3D3F24061C5DBE910050E21B /* PYLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F23FD1C5DBE910050E21B /* PYLoginView.m */; };
+		3D3F240A1C5DBF360050E21B /* PYTaskHanlder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F24091C5DBF360050E21B /* PYTaskHanlder.m */; };
+		3D3F240D1C5DC1760050E21B /* PYTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F240C1C5DC1760050E21B /* PYTask.m */; };
+		3D3F24101C5DC1DC0050E21B /* PYUndownloadTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F240F1C5DC1DC0050E21B /* PYUndownloadTaskListViewController.m */; };
+		3D3F24131C5DC1F10050E21B /* PYHistoryTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F24121C5DC1F10050E21B /* PYHistoryTaskListViewController.m */; };
+		3D44ABBA1C61A5E4009D60C5 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D44ABB91C61A5E4009D60C5 /* JavaScriptCore.framework */; };
+		3D44ABC21C61ADE0009D60C5 /* PYJsCoreContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D44ABC11C61ADE0009D60C5 /* PYJsCoreContext.m */; };
+		3D44ABC71C61BDB1009D60C5 /* PYManagedQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D44ABC41C61BDB1009D60C5 /* PYManagedQuestion.m */; };
+		3D44ABC81C61BDB1009D60C5 /* PYManagedQuestion+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D44ABC61C61BDB1009D60C5 /* PYManagedQuestion+CoreDataProperties.m */; };
+		3D44ABCC1C61C11A009D60C5 /* PYQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D44ABCB1C61C11A009D60C5 /* PYQuestion.m */; };
+		3D44ABD11C620A90009D60C5 /* NSSet+IgnoreKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D44ABD01C620A90009D60C5 /* NSSet+IgnoreKeys.m */; };
+		3D4769711C5C537A00ED5CDE /* PYDefaultTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4769701C5C537A00ED5CDE /* PYDefaultTheme.m */; };
+		3D4769741C5C53A500ED5CDE /* PYThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4769731C5C53A500ED5CDE /* PYThemeManager.m */; };
+		3D47697A1C5C561900ED5CDE /* PYLogicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4769791C5C561900ED5CDE /* PYLogicManager.m */; };
+		3D4769811C5C58E000ED5CDE /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4769801C5C58E000ED5CDE /* UIImage+Color.m */; };
+		3D4E3BA01C63940300DAEB39 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E3B9F1C63940300DAEB39 /* UIImage+Resize.m */; };
+		3D4E3BA31C639A6D00DAEB39 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4E3BA21C639A6D00DAEB39 /* NSString+Extension.m */; };
+		3D79965B1C9C6DCC001F2DB8 /* PYLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D79965A1C9C6DCC001F2DB8 /* PYLocationViewController.m */; };
+		3D81AB481C9CF0110022EECD /* PYUserHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81AB471C9CF0110022EECD /* PYUserHomeViewController.m */; };
+		3D81AB4B1C9D05510022EECD /* PYCommonTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81AB4A1C9D05510022EECD /* PYCommonTaskListViewController.m */; };
+		3D81AB4E1C9D1B750022EECD /* UIView+ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81AB4D1C9D1B750022EECD /* UIView+ActivityIndicator.m */; };
+		3D81AB511C9DA82E0022EECD /* PYHistoryTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81AB501C9DA82E0022EECD /* PYHistoryTaskDetailViewController.m */; };
+		3D81EC3B1C5BDC4700CD6275 /* BaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81EC331C5BDC4700CD6275 /* BaseHandler.m */; };
+		3D81EC3D1C5BDC4700CD6275 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81EC391C5BDC4700CD6275 /* BaseView.m */; };
+		3D81EC401C5BDCB600CD6275 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81EC3F1C5BDCB600CD6275 /* BaseViewController.m */; };
+		3D81EC431C5BDD6E00CD6275 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81EC421C5BDD6E00CD6275 /* BaseModel.m */; };
+		3D81EC461C5BDD9800CD6275 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81EC451C5BDD9800CD6275 /* BaseTableViewController.m */; };
+		3D81EC4C1C5BDE3200CD6275 /* PYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81EC4B1C5BDE3200CD6275 /* PYHomeViewController.m */; };
+		3D81EC611C5BE27C00CD6275 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81EC601C5BE27C00CD6275 /* BaseNavigationViewController.m */; };
+		3D8F3DD01C64748B00AC8C5C /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8F3DCF1C64748B00AC8C5C /* Base64.m */; };
+		3D8F3DD41C6474D800AC8C5C /* PYSurveyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8F3DD31C6474D800AC8C5C /* PYSurveyHandler.m */; };
+		3D8F3DD71C647A2600AC8C5C /* PYImagePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8F3DD61C647A2600AC8C5C /* PYImagePath.m */; };
+		3D8F3DDA1C647B4800AC8C5C /* NSDate+localString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8F3DD91C647B4800AC8C5C /* NSDate+localString.m */; };
+		3D977B251C5E3B6A005B4B36 /* PYUndownloadTaskDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D977B241C5E3B6A005B4B36 /* PYUndownloadTaskDetailView.m */; };
+		3DA11BC81C6307130095D664 /* PYQuestionnaireButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA11BC71C6307130095D664 /* PYQuestionnaireButtonItem.m */; };
+		3DA270B81C5CAEFA00745A64 /* PYAppNetWorkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA270B71C5CAEFA00745A64 /* PYAppNetWorkClient.m */; };
+		3DA270BF1C5CC06700745A64 /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA270BE1C5CC06700745A64 /* NSString+Check.m */; };
+		3DA5EF461C5E69EA002EA14F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5EF451C5E69EA002EA14F /* Reachability.m */; };
+		3DA5EF4C1C5E6B2A002EA14F /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5EF4A1C5E6B2A002EA14F /* UIAlertView+Blocks.m */; };
+		3DA5EF4F1C5E6EB3002EA14F /* UIButton+ActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5EF4E1C5E6EB3002EA14F /* UIButton+ActivityIndicatorView.m */; };
+		3DB55D661C8C48E700278945 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB55D651C8C48E700278945 /* BaseCollectionViewCell.m */; };
+		3DB55D691C8C490B00278945 /* PYQuestionItemCollectionVIewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB55D681C8C490B00278945 /* PYQuestionItemCollectionVIewCell.m */; };
+		3DB55D6F1C8C626200278945 /* LJQRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB55D6C1C8C626200278945 /* LJQRView.m */; };
+		3DB55D701C8C626200278945 /* LJQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB55D6E1C8C626200278945 /* LJQRViewController.m */; };
+		3DB55D741C8C66C500278945 /* SJAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB55D731C8C66C500278945 /* SJAvatarBrowser.m */; };
+		3DB55D771C8C6B2800278945 /* PYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB55D761C8C6B2800278945 /* PYSearchViewController.m */; };
+		3DB5C28B1C8B66D70021E69D /* PYQuestionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5C28A1C8B66D70021E69D /* PYQuestionItem.m */; };
+		3DB5C28E1C8B67B50021E69D /* PYQuestionItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5C28D1C8B67B50021E69D /* PYQuestionItemListViewController.m */; };
+		3DBDF55A1C8C462F0010E3E4 /* BaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDF5591C8C462F0010E3E4 /* BaseCollectionViewController.m */; };
+		3DC6CA7A1C8971080058888F /* PYQuestionnaireSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6CA791C8971080058888F /* PYQuestionnaireSection.m */; };
+		3DC6CA931C8984850058888F /* PYMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6CA921C8984850058888F /* PYMenu.m */; };
+		3DD43D891C608046008F2C6E /* PYJSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD43D881C608046008F2C6E /* PYJSVersion.m */; };
+		3DDE36561C9C4E840062FAD1 /* PYHistoryRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE36551C9C4E840062FAD1 /* PYHistoryRecord.m */; };
+		3DDE36591C9C5C190062FAD1 /* PYSearchRecordViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE36581C9C5C190062FAD1 /* PYSearchRecordViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D0050341C5F13CC005CD834 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		3D0050351C5F13CC005CD834 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		3D06E0F41C5BD2340058AEDD /* hpj_refactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hpj_refactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D06E0F81C5BD2340058AEDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D06E0FA1C5BD2340058AEDD /* PYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PYAppDelegate.h; path = ../PYAppDelegate.h; sourceTree = "<group>"; };
+		3D06E0FB1C5BD2340058AEDD /* PYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PYAppDelegate.m; path = ../PYAppDelegate.m; sourceTree = "<group>"; };
+		3D06E1011C5BD2340058AEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D06E1031C5BD2340058AEDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		3D06E1061C5BD2340058AEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D06E1081C5BD2340058AEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D25FC751C799801007F34FE /* HPJAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPJAlertView.h; sourceTree = "<group>"; };
+		3D25FC761C799801007F34FE /* HPJAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPJAlertView.m; sourceTree = "<group>"; };
+		3D25FC791C79980E007F34FE /* PYLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYLoadingView.h; sourceTree = "<group>"; };
+		3D25FC7A1C79980E007F34FE /* PYLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYLoadingView.m; sourceTree = "<group>"; };
+		3D25FC7B1C79980E007F34FE /* PYNetworkUnavailableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYNetworkUnavailableView.h; sourceTree = "<group>"; };
+		3D25FC7C1C79980E007F34FE /* PYNetworkUnavailableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYNetworkUnavailableView.m; sourceTree = "<group>"; };
+		3D25FC801C799D7E007F34FE /* RMDisplayLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDisplayLabel.h; sourceTree = "<group>"; };
+		3D25FC811C799D7E007F34FE /* RMDisplayLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDisplayLabel.m; sourceTree = "<group>"; };
+		3D25FC821C799D7E007F34FE /* RMDownloadIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDownloadIndicator.h; sourceTree = "<group>"; };
+		3D25FC831C799D7E007F34FE /* RMDownloadIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDownloadIndicator.m; sourceTree = "<group>"; };
+		3D2DED391C9E4DB7004D5E8D /* APPSegueIdConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPSegueIdConfig.h; sourceTree = "<group>"; };
+		3D2DED3A1C9E55B2004D5E8D /* wenjuan */ = {isa = PBXFileReference; lastKnownFileType = folder; path = wenjuan; sourceTree = "<group>"; };
+		3D35A3271C5DD8AC009A56FE /* BaseViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewCell.h; sourceTree = "<group>"; };
+		3D35A3281C5DD8AC009A56FE /* BaseViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewCell.m; sourceTree = "<group>"; };
+		3D35A32A1C5DD8BE009A56FE /* PYTaskViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYTaskViewCell.h; sourceTree = "<group>"; };
+		3D35A32B1C5DD8BE009A56FE /* PYTaskViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYTaskViewCell.m; sourceTree = "<group>"; };
+		3D35A3341C5E0DBD009A56FE /* PYUndownloadTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYUndownloadTaskDetailViewController.h; sourceTree = "<group>"; };
+		3D35A3351C5E0DBD009A56FE /* PYUndownloadTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYUndownloadTaskDetailViewController.m; sourceTree = "<group>"; };
+		3D3F239B1C5CD7B90050E21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3D3F23A51C5CE1670050E21B /* INTULocationManager+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "INTULocationManager+Internal.h"; sourceTree = "<group>"; };
+		3D3F23A61C5CE1670050E21B /* INTULocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTULocationManager.h; sourceTree = "<group>"; };
+		3D3F23A71C5CE1670050E21B /* INTULocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTULocationManager.m; sourceTree = "<group>"; };
+		3D3F23A81C5CE1670050E21B /* INTULocationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTULocationRequest.h; sourceTree = "<group>"; };
+		3D3F23A91C5CE1670050E21B /* INTULocationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTULocationRequest.m; sourceTree = "<group>"; };
+		3D3F23AA1C5CE1670050E21B /* INTULocationRequestDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTULocationRequestDefines.h; sourceTree = "<group>"; };
+		3D3F23AD1C5CED150050E21B /* PYHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYHomeView.h; sourceTree = "<group>"; };
+		3D3F23AE1C5CED150050E21B /* PYHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYHomeView.m; sourceTree = "<group>"; };
+		3D3F23B11C5CF89B0050E21B /* PYQuestionnaire.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PYQuestionnaire.xcdatamodel; sourceTree = "<group>"; };
+		3D3F23BB1C5CFB4B0050E21B /* PYLoginUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYLoginUserManager.h; sourceTree = "<group>"; };
+		3D3F23BC1C5CFB4B0050E21B /* PYLoginUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYLoginUserManager.m; sourceTree = "<group>"; };
+		3D3F23BF1C5D00860050E21B /* PYQuestionnaireManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYQuestionnaireManager.h; sourceTree = "<group>"; };
+		3D3F23C01C5D00860050E21B /* PYQuestionnaireManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYQuestionnaireManager.m; sourceTree = "<group>"; };
+		3D3F23CF1C5D32580050E21B /* PYManagedUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYManagedUser.h; sourceTree = "<group>"; };
+		3D3F23D01C5D32580050E21B /* PYManagedUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYManagedUser.m; sourceTree = "<group>"; };
+		3D3F23D11C5D32580050E21B /* PYManagedUser+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PYManagedUser+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3D3F23D21C5D32580050E21B /* PYManagedUser+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PYManagedUser+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3D3F23D71C5DB6300050E21B /* PYManagedQuestionnaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYManagedQuestionnaire.h; sourceTree = "<group>"; };
+		3D3F23D81C5DB6300050E21B /* PYManagedQuestionnaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYManagedQuestionnaire.m; sourceTree = "<group>"; };
+		3D3F23D91C5DB6300050E21B /* PYManagedQuestionnaire+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PYManagedQuestionnaire+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3D3F23DA1C5DB6300050E21B /* PYManagedQuestionnaire+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PYManagedQuestionnaire+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3D3F23DD1C5DB8D60050E21B /* PYUserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYUserProtocol.h; sourceTree = "<group>"; };
+		3D3F23DE1C5DBC4D0050E21B /* PYQuestionnaireProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYQuestionnaireProtocol.h; sourceTree = "<group>"; };
+		3D3F23E21C5DBE910050E21B /* PYSurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSurveyViewController.h; sourceTree = "<group>"; };
+		3D3F23E31C5DBE910050E21B /* PYSurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSurveyViewController.m; sourceTree = "<group>"; };
+		3D3F23E81C5DBE910050E21B /* PYDownloadedTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYDownloadedTaskListViewController.h; sourceTree = "<group>"; };
+		3D3F23E91C5DBE910050E21B /* PYDownloadedTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYDownloadedTaskListViewController.m; sourceTree = "<group>"; };
+		3D3F23ED1C5DBE910050E21B /* PYUserHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYUserHandler.h; sourceTree = "<group>"; };
+		3D3F23EE1C5DBE910050E21B /* PYUserHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYUserHandler.m; sourceTree = "<group>"; };
+		3D3F23F01C5DBE910050E21B /* PYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYUser.h; sourceTree = "<group>"; };
+		3D3F23F11C5DBE910050E21B /* PYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYUser.m; sourceTree = "<group>"; };
+		3D3F23F31C5DBE910050E21B /* PYImproveInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYImproveInfoViewController.h; sourceTree = "<group>"; };
+		3D3F23F41C5DBE910050E21B /* PYImproveInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYImproveInfoViewController.m; sourceTree = "<group>"; };
+		3D3F23F51C5DBE910050E21B /* PYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYLoginViewController.h; sourceTree = "<group>"; };
+		3D3F23F61C5DBE910050E21B /* PYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYLoginViewController.m; sourceTree = "<group>"; };
+		3D3F23F81C5DBE910050E21B /* PYImproveInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYImproveInfoView.h; sourceTree = "<group>"; };
+		3D3F23F91C5DBE910050E21B /* PYImproveInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYImproveInfoView.m; sourceTree = "<group>"; };
+		3D3F23FA1C5DBE910050E21B /* PYImproveTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYImproveTitleView.h; sourceTree = "<group>"; };
+		3D3F23FB1C5DBE910050E21B /* PYImproveTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYImproveTitleView.m; sourceTree = "<group>"; };
+		3D3F23FC1C5DBE910050E21B /* PYLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYLoginView.h; sourceTree = "<group>"; };
+		3D3F23FD1C5DBE910050E21B /* PYLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYLoginView.m; sourceTree = "<group>"; };
+		3D3F24081C5DBF360050E21B /* PYTaskHanlder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYTaskHanlder.h; sourceTree = "<group>"; };
+		3D3F24091C5DBF360050E21B /* PYTaskHanlder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYTaskHanlder.m; sourceTree = "<group>"; };
+		3D3F240B1C5DC1760050E21B /* PYTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYTask.h; sourceTree = "<group>"; };
+		3D3F240C1C5DC1760050E21B /* PYTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYTask.m; sourceTree = "<group>"; };
+		3D3F240E1C5DC1DC0050E21B /* PYUndownloadTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYUndownloadTaskListViewController.h; sourceTree = "<group>"; };
+		3D3F240F1C5DC1DC0050E21B /* PYUndownloadTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYUndownloadTaskListViewController.m; sourceTree = "<group>"; };
+		3D3F24111C5DC1F10050E21B /* PYHistoryTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYHistoryTaskListViewController.h; sourceTree = "<group>"; };
+		3D3F24121C5DC1F10050E21B /* PYHistoryTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYHistoryTaskListViewController.m; sourceTree = "<group>"; };
+		3D44ABB91C61A5E4009D60C5 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/PrivateFrameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3D44ABC01C61ADE0009D60C5 /* PYJsCoreContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYJsCoreContext.h; sourceTree = "<group>"; };
+		3D44ABC11C61ADE0009D60C5 /* PYJsCoreContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYJsCoreContext.m; sourceTree = "<group>"; };
+		3D44ABC31C61BDB1009D60C5 /* PYManagedQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYManagedQuestion.h; sourceTree = "<group>"; };
+		3D44ABC41C61BDB1009D60C5 /* PYManagedQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYManagedQuestion.m; sourceTree = "<group>"; };
+		3D44ABC51C61BDB1009D60C5 /* PYManagedQuestion+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PYManagedQuestion+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3D44ABC61C61BDB1009D60C5 /* PYManagedQuestion+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PYManagedQuestion+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3D44ABC91C61C06E009D60C5 /* PYQuestionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYQuestionProtocol.h; sourceTree = "<group>"; };
+		3D44ABCA1C61C11A009D60C5 /* PYQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYQuestion.h; sourceTree = "<group>"; };
+		3D44ABCB1C61C11A009D60C5 /* PYQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYQuestion.m; sourceTree = "<group>"; };
+		3D44ABCF1C620A90009D60C5 /* NSSet+IgnoreKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+IgnoreKeys.h"; sourceTree = "<group>"; };
+		3D44ABD01C620A90009D60C5 /* NSSet+IgnoreKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+IgnoreKeys.m"; sourceTree = "<group>"; };
+		3D47696F1C5C537A00ED5CDE /* PYDefaultTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYDefaultTheme.h; sourceTree = "<group>"; };
+		3D4769701C5C537A00ED5CDE /* PYDefaultTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYDefaultTheme.m; sourceTree = "<group>"; };
+		3D4769721C5C53A500ED5CDE /* PYThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYThemeManager.h; sourceTree = "<group>"; };
+		3D4769731C5C53A500ED5CDE /* PYThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYThemeManager.m; sourceTree = "<group>"; };
+		3D4769751C5C546A00ED5CDE /* PYTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYTheme.h; sourceTree = "<group>"; };
+		3D4769781C5C561900ED5CDE /* PYLogicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYLogicManager.h; sourceTree = "<group>"; };
+		3D4769791C5C561900ED5CDE /* PYLogicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYLogicManager.m; sourceTree = "<group>"; };
+		3D47697B1C5C565600ED5CDE /* PYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYPrefixHeader.pch; sourceTree = "<group>"; };
+		3D47697F1C5C58E000ED5CDE /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		3D4769801C5C58E000ED5CDE /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		3D4769821C5C592E00ED5CDE /* PYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYExtension.h; sourceTree = "<group>"; };
+		3D4E3B9E1C63940300DAEB39 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		3D4E3B9F1C63940300DAEB39 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		3D4E3BA11C639A6D00DAEB39 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		3D4E3BA21C639A6D00DAEB39 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		3D7996591C9C6DCC001F2DB8 /* PYLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYLocationViewController.h; sourceTree = "<group>"; };
+		3D79965A1C9C6DCC001F2DB8 /* PYLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYLocationViewController.m; sourceTree = "<group>"; };
+		3D81AB461C9CF0110022EECD /* PYUserHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYUserHomeViewController.h; sourceTree = "<group>"; };
+		3D81AB471C9CF0110022EECD /* PYUserHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYUserHomeViewController.m; sourceTree = "<group>"; };
+		3D81AB491C9D05510022EECD /* PYCommonTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYCommonTaskListViewController.h; sourceTree = "<group>"; };
+		3D81AB4A1C9D05510022EECD /* PYCommonTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYCommonTaskListViewController.m; sourceTree = "<group>"; };
+		3D81AB4C1C9D1B750022EECD /* UIView+ActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ActivityIndicator.h"; sourceTree = "<group>"; };
+		3D81AB4D1C9D1B750022EECD /* UIView+ActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ActivityIndicator.m"; sourceTree = "<group>"; };
+		3D81AB4F1C9DA82D0022EECD /* PYHistoryTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYHistoryTaskDetailViewController.h; sourceTree = "<group>"; };
+		3D81AB501C9DA82E0022EECD /* PYHistoryTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYHistoryTaskDetailViewController.m; sourceTree = "<group>"; };
+		3D81EC111C5BD8F400CD6275 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		3D81EC121C5BD8F400CD6275 /* APPNotificationConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPNotificationConfig.h; sourceTree = "<group>"; };
+		3D81EC131C5BD8F400CD6275 /* AppUrlConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUrlConfig.h; sourceTree = "<group>"; };
+		3D81EC321C5BDC4700CD6275 /* BaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHandler.h; sourceTree = "<group>"; };
+		3D81EC331C5BDC4700CD6275 /* BaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHandler.m; sourceTree = "<group>"; };
+		3D81EC381C5BDC4700CD6275 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		3D81EC391C5BDC4700CD6275 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		3D81EC3E1C5BDCB600CD6275 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3D81EC3F1C5BDCB600CD6275 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3D81EC411C5BDD6E00CD6275 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		3D81EC421C5BDD6E00CD6275 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		3D81EC441C5BDD9800CD6275 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		3D81EC451C5BDD9800CD6275 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		3D81EC4A1C5BDE3200CD6275 /* PYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYHomeViewController.h; sourceTree = "<group>"; };
+		3D81EC4B1C5BDE3200CD6275 /* PYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYHomeViewController.m; sourceTree = "<group>"; };
+		3D81EC5F1C5BE27C00CD6275 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		3D81EC601C5BE27C00CD6275 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		3D8F3DCE1C64748B00AC8C5C /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		3D8F3DCF1C64748B00AC8C5C /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		3D8F3DD21C6474D800AC8C5C /* PYSurveyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSurveyHandler.h; sourceTree = "<group>"; };
+		3D8F3DD31C6474D800AC8C5C /* PYSurveyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSurveyHandler.m; sourceTree = "<group>"; };
+		3D8F3DD51C647A2600AC8C5C /* PYImagePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYImagePath.h; sourceTree = "<group>"; };
+		3D8F3DD61C647A2600AC8C5C /* PYImagePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYImagePath.m; sourceTree = "<group>"; };
+		3D8F3DD81C647B4800AC8C5C /* NSDate+localString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+localString.h"; sourceTree = "<group>"; };
+		3D8F3DD91C647B4800AC8C5C /* NSDate+localString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+localString.m"; sourceTree = "<group>"; };
+		3D977B231C5E3B6A005B4B36 /* PYUndownloadTaskDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYUndownloadTaskDetailView.h; sourceTree = "<group>"; };
+		3D977B241C5E3B6A005B4B36 /* PYUndownloadTaskDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYUndownloadTaskDetailView.m; sourceTree = "<group>"; };
+		3DA11BC61C6307130095D664 /* PYQuestionnaireButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYQuestionnaireButtonItem.h; sourceTree = "<group>"; };
+		3DA11BC71C6307130095D664 /* PYQuestionnaireButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYQuestionnaireButtonItem.m; sourceTree = "<group>"; };
+		3DA270B61C5CAEFA00745A64 /* PYAppNetWorkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYAppNetWorkClient.h; sourceTree = "<group>"; };
+		3DA270B71C5CAEFA00745A64 /* PYAppNetWorkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYAppNetWorkClient.m; sourceTree = "<group>"; };
+		3DA270BD1C5CC06700745A64 /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
+		3DA270BE1C5CC06700745A64 /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
+		3DA5EF441C5E69EA002EA14F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3DA5EF451C5E69EA002EA14F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3DA5EF491C5E6B2A002EA14F /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		3DA5EF4A1C5E6B2A002EA14F /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		3DA5EF4D1C5E6EB3002EA14F /* UIButton+ActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ActivityIndicatorView.h"; sourceTree = "<group>"; };
+		3DA5EF4E1C5E6EB3002EA14F /* UIButton+ActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ActivityIndicatorView.m"; sourceTree = "<group>"; };
+		3DB55D641C8C48E700278945 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		3DB55D651C8C48E700278945 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		3DB55D671C8C490B00278945 /* PYQuestionItemCollectionVIewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYQuestionItemCollectionVIewCell.h; sourceTree = "<group>"; };
+		3DB55D681C8C490B00278945 /* PYQuestionItemCollectionVIewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYQuestionItemCollectionVIewCell.m; sourceTree = "<group>"; };
+		3DB55D6B1C8C626200278945 /* LJQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJQRView.h; sourceTree = "<group>"; };
+		3DB55D6C1C8C626200278945 /* LJQRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJQRView.m; sourceTree = "<group>"; };
+		3DB55D6D1C8C626200278945 /* LJQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJQRViewController.h; sourceTree = "<group>"; };
+		3DB55D6E1C8C626200278945 /* LJQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJQRViewController.m; sourceTree = "<group>"; };
+		3DB55D721C8C66C500278945 /* SJAvatarBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAvatarBrowser.h; sourceTree = "<group>"; };
+		3DB55D731C8C66C500278945 /* SJAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAvatarBrowser.m; sourceTree = "<group>"; };
+		3DB55D751C8C6B2800278945 /* PYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchViewController.h; sourceTree = "<group>"; };
+		3DB55D761C8C6B2800278945 /* PYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchViewController.m; sourceTree = "<group>"; };
+		3DB5C2891C8B66D70021E69D /* PYQuestionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYQuestionItem.h; sourceTree = "<group>"; };
+		3DB5C28A1C8B66D70021E69D /* PYQuestionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYQuestionItem.m; sourceTree = "<group>"; };
+		3DB5C28C1C8B67B50021E69D /* PYQuestionItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYQuestionItemListViewController.h; sourceTree = "<group>"; };
+		3DB5C28D1C8B67B50021E69D /* PYQuestionItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYQuestionItemListViewController.m; sourceTree = "<group>"; };
+		3DBDF5581C8C462F0010E3E4 /* BaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewController.h; sourceTree = "<group>"; };
+		3DBDF5591C8C462F0010E3E4 /* BaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewController.m; sourceTree = "<group>"; };
+		3DC6CA781C8971080058888F /* PYQuestionnaireSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYQuestionnaireSection.h; sourceTree = "<group>"; };
+		3DC6CA791C8971080058888F /* PYQuestionnaireSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYQuestionnaireSection.m; sourceTree = "<group>"; };
+		3DC6CA911C8984850058888F /* PYMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMenu.h; sourceTree = "<group>"; };
+		3DC6CA921C8984850058888F /* PYMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMenu.m; sourceTree = "<group>"; };
+		3DD43D861C606369008F2C6E /* PYCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYCommon.h; sourceTree = "<group>"; };
+		3DD43D871C608046008F2C6E /* PYJSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYJSVersion.h; sourceTree = "<group>"; };
+		3DD43D881C608046008F2C6E /* PYJSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYJSVersion.m; sourceTree = "<group>"; };
+		3DDE36541C9C4E840062FAD1 /* PYHistoryRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYHistoryRecord.h; sourceTree = "<group>"; };
+		3DDE36551C9C4E840062FAD1 /* PYHistoryRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYHistoryRecord.m; sourceTree = "<group>"; };
+		3DDE36571C9C5C190062FAD1 /* PYSearchRecordViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchRecordViewCell.h; sourceTree = "<group>"; };
+		3DDE36581C9C5C190062FAD1 /* PYSearchRecordViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchRecordViewCell.m; sourceTree = "<group>"; };
+		956FC0546F16337B7FD255C3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		ADD3F108A3031CEB7D25CDF0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88A1B545D08F4B8ED4F7774 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D06E0F11C5BD2340058AEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D44ABBA1C61A5E4009D60C5 /* JavaScriptCore.framework in Frameworks */,
+				03034E2E92C2E1FB8B013039 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D06E0EB1C5BD2340058AEDD = {
+			isa = PBXGroup;
+			children = (
+				3D06E0F61C5BD2340058AEDD /* hpj_refactor */,
+				3D06E0F51C5BD2340058AEDD /* Products */,
+				BED4D35CBBCF04D9452CFF07 /* Pods */,
+				E90F2E6261901F8DA3FE7961 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D06E0F51C5BD2340058AEDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D06E0F41C5BD2340058AEDD /* hpj_refactor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D06E0F61C5BD2340058AEDD /* hpj_refactor */ = {
+			isa = PBXGroup;
+			children = (
+				3D2DED3A1C9E55B2004D5E8D /* wenjuan */,
+				3D81E9AC1C5BD80E00CD6275 /* Config */,
+				3D81E9AA1C5BD80E00CD6275 /* Base */,
+				3D81E9AF1C5BD80E00CD6275 /* Tools */,
+				3D81E9AB1C5BD80E00CD6275 /* Categary */,
+				3D81EC211C5BDAFB00CD6275 /* Common */,
+				3D81E9AD1C5BD80E00CD6275 /* Main */,
+				3D81E9AE1C5BD80E00CD6275 /* Resources */,
+				3D06E0F71C5BD2340058AEDD /* Supporting Files */,
+			);
+			path = hpj_refactor;
+			sourceTree = "<group>";
+		};
+		3D06E0F71C5BD2340058AEDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D06E1081C5BD2340058AEDD /* Info.plist */,
+				3D06E0F81C5BD2340058AEDD /* main.m */,
+				3D47697B1C5C565600ED5CDE /* PYPrefixHeader.pch */,
+				3D3F239C1C5CD7B90050E21B /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D25FC741C799801007F34FE /* HPJAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				3D25FC751C799801007F34FE /* HPJAlertView.h */,
+				3D25FC761C799801007F34FE /* HPJAlertView.m */,
+			);
+			path = HPJAlertView;
+			sourceTree = "<group>";
+		};
+		3D25FC781C79980E007F34FE /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				3D25FC791C79980E007F34FE /* PYLoadingView.h */,
+				3D25FC7A1C79980E007F34FE /* PYLoadingView.m */,
+				3D25FC7B1C79980E007F34FE /* PYNetworkUnavailableView.h */,
+				3D25FC7C1C79980E007F34FE /* PYNetworkUnavailableView.m */,
+			);
+			name = LoadingView;
+			path = hpj_refactor/Common/Views/LoadingView;
+			sourceTree = SOURCE_ROOT;
+		};
+		3D25FC7F1C799D7E007F34FE /* CircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3D25FC801C799D7E007F34FE /* RMDisplayLabel.h */,
+				3D25FC811C799D7E007F34FE /* RMDisplayLabel.m */,
+				3D25FC821C799D7E007F34FE /* RMDownloadIndicator.h */,
+				3D25FC831C799D7E007F34FE /* RMDownloadIndicator.m */,
+			);
+			path = CircleProgress;
+			sourceTree = "<group>";
+		};
+		3D35A32D1C5DF91F009A56FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DC6CA901C8984780058888F /* Menu */,
+				3D25FC7F1C799D7E007F34FE /* CircleProgress */,
+				3D25FC781C79980E007F34FE /* LoadingView */,
+				3D25FC741C799801007F34FE /* HPJAlertView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D3F23A41C5CE1670050E21B /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23A51C5CE1670050E21B /* INTULocationManager+Internal.h */,
+				3D3F23A61C5CE1670050E21B /* INTULocationManager.h */,
+				3D3F23A71C5CE1670050E21B /* INTULocationManager.m */,
+				3D3F23A81C5CE1670050E21B /* INTULocationRequest.h */,
+				3D3F23A91C5CE1670050E21B /* INTULocationRequest.m */,
+				3D3F23AA1C5CE1670050E21B /* INTULocationRequestDefines.h */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		3D3F23B31C5CF9370050E21B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DD43D861C606369008F2C6E /* PYCommon.h */,
+				3D3F23DD1C5DB8D60050E21B /* PYUserProtocol.h */,
+				3D3F23DE1C5DBC4D0050E21B /* PYQuestionnaireProtocol.h */,
+				3D44ABC91C61C06E009D60C5 /* PYQuestionProtocol.h */,
+				3D3F23CF1C5D32580050E21B /* PYManagedUser.h */,
+				3D3F23D01C5D32580050E21B /* PYManagedUser.m */,
+				3D3F23D11C5D32580050E21B /* PYManagedUser+CoreDataProperties.h */,
+				3D3F23D21C5D32580050E21B /* PYManagedUser+CoreDataProperties.m */,
+				3D3F23D71C5DB6300050E21B /* PYManagedQuestionnaire.h */,
+				3D3F23D81C5DB6300050E21B /* PYManagedQuestionnaire.m */,
+				3D3F23D91C5DB6300050E21B /* PYManagedQuestionnaire+CoreDataProperties.h */,
+				3D3F23DA1C5DB6300050E21B /* PYManagedQuestionnaire+CoreDataProperties.m */,
+				3D44ABC31C61BDB1009D60C5 /* PYManagedQuestion.h */,
+				3D44ABC41C61BDB1009D60C5 /* PYManagedQuestion.m */,
+				3D44ABC51C61BDB1009D60C5 /* PYManagedQuestion+CoreDataProperties.h */,
+				3D44ABC61C61BDB1009D60C5 /* PYManagedQuestion+CoreDataProperties.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D3F23BA1C5CFB360050E21B /* LoginUserManager */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23BB1C5CFB4B0050E21B /* PYLoginUserManager.h */,
+				3D3F23BC1C5CFB4B0050E21B /* PYLoginUserManager.m */,
+			);
+			path = LoginUserManager;
+			sourceTree = "<group>";
+		};
+		3D3F23BE1C5D00760050E21B /* QuestionnaireDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23BF1C5D00860050E21B /* PYQuestionnaireManager.h */,
+				3D3F23C01C5D00860050E21B /* PYQuestionnaireManager.m */,
+			);
+			path = QuestionnaireDataManager;
+			sourceTree = "<group>";
+		};
+		3D3F23DF1C5DBE910050E21B /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				3D8F3DD11C6474C100AC8C5C /* Handler */,
+				3D3F23E01C5DBE910050E21B /* Models */,
+				3D3F23E41C5DBE910050E21B /* Views */,
+				3D3F23E11C5DBE910050E21B /* ViewControllers */,
+			);
+			path = Survey;
+			sourceTree = "<group>";
+		};
+		3D3F23E01C5DBE910050E21B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D44ABCA1C61C11A009D60C5 /* PYQuestion.h */,
+				3D44ABCB1C61C11A009D60C5 /* PYQuestion.m */,
+				3DC6CA781C8971080058888F /* PYQuestionnaireSection.h */,
+				3DC6CA791C8971080058888F /* PYQuestionnaireSection.m */,
+				3D8F3DD51C647A2600AC8C5C /* PYImagePath.h */,
+				3D8F3DD61C647A2600AC8C5C /* PYImagePath.m */,
+				3DB5C2891C8B66D70021E69D /* PYQuestionItem.h */,
+				3DB5C28A1C8B66D70021E69D /* PYQuestionItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D3F23E11C5DBE910050E21B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23E21C5DBE910050E21B /* PYSurveyViewController.h */,
+				3D3F23E31C5DBE910050E21B /* PYSurveyViewController.m */,
+				3DB5C28C1C8B67B50021E69D /* PYQuestionItemListViewController.h */,
+				3DB5C28D1C8B67B50021E69D /* PYQuestionItemListViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D3F23E41C5DBE910050E21B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DA11BC61C6307130095D664 /* PYQuestionnaireButtonItem.h */,
+				3DA11BC71C6307130095D664 /* PYQuestionnaireButtonItem.m */,
+				3DB55D671C8C490B00278945 /* PYQuestionItemCollectionVIewCell.h */,
+				3DB55D681C8C490B00278945 /* PYQuestionItemCollectionVIewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D3F23E51C5DBE910050E21B /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F24071C5DBF030050E21B /* Handler */,
+				3D3F23E61C5DBE910050E21B /* Models */,
+				3D3F23EA1C5DBE910050E21B /* Views */,
+				3D3F23E71C5DBE910050E21B /* ViewControllers */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		3D3F23E61C5DBE910050E21B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F240B1C5DC1760050E21B /* PYTask.h */,
+				3D3F240C1C5DC1760050E21B /* PYTask.m */,
+				3DDE36541C9C4E840062FAD1 /* PYHistoryRecord.h */,
+				3DDE36551C9C4E840062FAD1 /* PYHistoryRecord.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D3F23E71C5DBE910050E21B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D81AB491C9D05510022EECD /* PYCommonTaskListViewController.h */,
+				3D81AB4A1C9D05510022EECD /* PYCommonTaskListViewController.m */,
+				3D3F240E1C5DC1DC0050E21B /* PYUndownloadTaskListViewController.h */,
+				3D3F240F1C5DC1DC0050E21B /* PYUndownloadTaskListViewController.m */,
+				3D3F23E81C5DBE910050E21B /* PYDownloadedTaskListViewController.h */,
+				3D3F23E91C5DBE910050E21B /* PYDownloadedTaskListViewController.m */,
+				3D3F24111C5DC1F10050E21B /* PYHistoryTaskListViewController.h */,
+				3D3F24121C5DC1F10050E21B /* PYHistoryTaskListViewController.m */,
+				3D81AB4F1C9DA82D0022EECD /* PYHistoryTaskDetailViewController.h */,
+				3D81AB501C9DA82E0022EECD /* PYHistoryTaskDetailViewController.m */,
+				3D35A3341C5E0DBD009A56FE /* PYUndownloadTaskDetailViewController.h */,
+				3D35A3351C5E0DBD009A56FE /* PYUndownloadTaskDetailViewController.m */,
+				3D7996591C9C6DCC001F2DB8 /* PYLocationViewController.h */,
+				3D79965A1C9C6DCC001F2DB8 /* PYLocationViewController.m */,
+				3DB55D751C8C6B2800278945 /* PYSearchViewController.h */,
+				3DB55D761C8C6B2800278945 /* PYSearchViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D3F23EA1C5DBE910050E21B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D35A32A1C5DD8BE009A56FE /* PYTaskViewCell.h */,
+				3D35A32B1C5DD8BE009A56FE /* PYTaskViewCell.m */,
+				3DDE36571C9C5C190062FAD1 /* PYSearchRecordViewCell.h */,
+				3DDE36581C9C5C190062FAD1 /* PYSearchRecordViewCell.m */,
+				3D977B231C5E3B6A005B4B36 /* PYUndownloadTaskDetailView.h */,
+				3D977B241C5E3B6A005B4B36 /* PYUndownloadTaskDetailView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D3F23EB1C5DBE910050E21B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23EC1C5DBE910050E21B /* Handler */,
+				3D3F23F71C5DBE910050E21B /* Views */,
+				3D3F23EF1C5DBE910050E21B /* Models */,
+				3D3F23F21C5DBE910050E21B /* ViewControllers */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		3D3F23EC1C5DBE910050E21B /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23ED1C5DBE910050E21B /* PYUserHandler.h */,
+				3D3F23EE1C5DBE910050E21B /* PYUserHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		3D3F23EF1C5DBE910050E21B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23F01C5DBE910050E21B /* PYUser.h */,
+				3D3F23F11C5DBE910050E21B /* PYUser.m */,
+				3DD43D871C608046008F2C6E /* PYJSVersion.h */,
+				3DD43D881C608046008F2C6E /* PYJSVersion.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D3F23F21C5DBE910050E21B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23F31C5DBE910050E21B /* PYImproveInfoViewController.h */,
+				3D3F23F41C5DBE910050E21B /* PYImproveInfoViewController.m */,
+				3D3F23F51C5DBE910050E21B /* PYLoginViewController.h */,
+				3D3F23F61C5DBE910050E21B /* PYLoginViewController.m */,
+				3D81AB461C9CF0110022EECD /* PYUserHomeViewController.h */,
+				3D81AB471C9CF0110022EECD /* PYUserHomeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D3F23F71C5DBE910050E21B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23F81C5DBE910050E21B /* PYImproveInfoView.h */,
+				3D3F23F91C5DBE910050E21B /* PYImproveInfoView.m */,
+				3D3F23FA1C5DBE910050E21B /* PYImproveTitleView.h */,
+				3D3F23FB1C5DBE910050E21B /* PYImproveTitleView.m */,
+				3D3F23FC1C5DBE910050E21B /* PYLoginView.h */,
+				3D3F23FD1C5DBE910050E21B /* PYLoginView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D3F24071C5DBF030050E21B /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F24081C5DBF360050E21B /* PYTaskHanlder.h */,
+				3D3F24091C5DBF360050E21B /* PYTaskHanlder.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		3D44ABBF1C61ADD1009D60C5 /* JSCoreContext */ = {
+			isa = PBXGroup;
+			children = (
+				3D44ABC01C61ADE0009D60C5 /* PYJsCoreContext.h */,
+				3D44ABC11C61ADE0009D60C5 /* PYJsCoreContext.m */,
+			);
+			path = JSCoreContext;
+			sourceTree = "<group>";
+		};
+		3D47696B1C5C534000ED5CDE /* ThemeStyleManager */ = {
+			isa = PBXGroup;
+			children = (
+				3D4769721C5C53A500ED5CDE /* PYThemeManager.h */,
+				3D4769731C5C53A500ED5CDE /* PYThemeManager.m */,
+				3D47696F1C5C537A00ED5CDE /* PYDefaultTheme.h */,
+				3D4769701C5C537A00ED5CDE /* PYDefaultTheme.m */,
+				3D4769751C5C546A00ED5CDE /* PYTheme.h */,
+			);
+			path = ThemeStyleManager;
+			sourceTree = "<group>";
+		};
+		3D4769771C5C55FE00ED5CDE /* LogicManager */ = {
+			isa = PBXGroup;
+			children = (
+				3D4769781C5C561900ED5CDE /* PYLogicManager.h */,
+				3D4769791C5C561900ED5CDE /* PYLogicManager.m */,
+			);
+			path = LogicManager;
+			sourceTree = "<group>";
+		};
+		3D81E9AA1C5BD80E00CD6275 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3D81EC311C5BDC4700CD6275 /* BaseHandler */,
+				3D81EC341C5BDC4700CD6275 /* BaseModel */,
+				3D81EC371C5BDC4700CD6275 /* BaseView */,
+				3D81EC3A1C5BDC4700CD6275 /* BaseViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3D81E9AB1C5BD80E00CD6275 /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				3D4769821C5C592E00ED5CDE /* PYExtension.h */,
+				3D81AB4C1C9D1B750022EECD /* UIView+ActivityIndicator.h */,
+				3D81AB4D1C9D1B750022EECD /* UIView+ActivityIndicator.m */,
+				3DA5EF491C5E6B2A002EA14F /* UIAlertView+Blocks.h */,
+				3DA5EF4A1C5E6B2A002EA14F /* UIAlertView+Blocks.m */,
+				3D47697F1C5C58E000ED5CDE /* UIImage+Color.h */,
+				3D4769801C5C58E000ED5CDE /* UIImage+Color.m */,
+				3D4E3B9E1C63940300DAEB39 /* UIImage+Resize.h */,
+				3D4E3B9F1C63940300DAEB39 /* UIImage+Resize.m */,
+				3DA270BD1C5CC06700745A64 /* NSString+Check.h */,
+				3DA270BE1C5CC06700745A64 /* NSString+Check.m */,
+				3DA5EF4D1C5E6EB3002EA14F /* UIButton+ActivityIndicatorView.h */,
+				3DA5EF4E1C5E6EB3002EA14F /* UIButton+ActivityIndicatorView.m */,
+				3D0050341C5F13CC005CD834 /* NSObject+Swizzling.h */,
+				3D0050351C5F13CC005CD834 /* NSObject+Swizzling.m */,
+				3D44ABCF1C620A90009D60C5 /* NSSet+IgnoreKeys.h */,
+				3D44ABD01C620A90009D60C5 /* NSSet+IgnoreKeys.m */,
+				3D4E3BA11C639A6D00DAEB39 /* NSString+Extension.h */,
+				3D4E3BA21C639A6D00DAEB39 /* NSString+Extension.m */,
+				3D8F3DD81C647B4800AC8C5C /* NSDate+localString.h */,
+				3D8F3DD91C647B4800AC8C5C /* NSDate+localString.m */,
+			);
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		3D81E9AC1C5BD80E00CD6275 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3D81EC111C5BD8F400CD6275 /* AppConfig.h */,
+				3D81EC121C5BD8F400CD6275 /* APPNotificationConfig.h */,
+				3D81EC131C5BD8F400CD6275 /* AppUrlConfig.h */,
+				3D2DED391C9E4DB7004D5E8D /* APPSegueIdConfig.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3D81E9AD1C5BD80E00CD6275 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3D81EC1D1C5BD9C900CD6275 /* Home */,
+				3D3F23E51C5DBE910050E21B /* Tasks */,
+				3D3F23DF1C5DBE910050E21B /* Survey */,
+				3D3F23EB1C5DBE910050E21B /* User */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3D81E9AE1C5BD80E00CD6275 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D06E0FA1C5BD2340058AEDD /* PYAppDelegate.h */,
+				3D06E0FB1C5BD2340058AEDD /* PYAppDelegate.m */,
+				3D06E1001C5BD2340058AEDD /* Main.storyboard */,
+				3D06E1051C5BD2340058AEDD /* LaunchScreen.storyboard */,
+				3D06E1031C5BD2340058AEDD /* Assets.xcassets */,
+				3D3F23B01C5CF89B0050E21B /* PYQuestionnaire.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D81E9AF1C5BD80E00CD6275 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3DB55D711C8C66C500278945 /* SJAvatarBrowser */,
+				3DB55D6A1C8C626200278945 /* QRCodeScan */,
+				3D8F3DCD1C64748B00AC8C5C /* Base64 */,
+				3D44ABBF1C61ADD1009D60C5 /* JSCoreContext */,
+				3DA5EF431C5E69EA002EA14F /* Reachability */,
+				3D3F23BE1C5D00760050E21B /* QuestionnaireDataManager */,
+				3D3F23BA1C5CFB360050E21B /* LoginUserManager */,
+				3D3F23A41C5CE1670050E21B /* LocationManager */,
+				3DA270B51C5CAED100745A64 /* AppNetworkClient */,
+				3D4769771C5C55FE00ED5CDE /* LogicManager */,
+				3D47696B1C5C534000ED5CDE /* ThemeStyleManager */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3D81EC1D1C5BD9C900CD6275 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D81EC251C5BDB7100CD6275 /* Models */,
+				3D81EC271C5BDB7100CD6275 /* Views */,
+				3D81EC261C5BDB7100CD6275 /* ViewControllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D81EC211C5BDAFB00CD6275 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23B31C5CF9370050E21B /* Models */,
+				3D35A32D1C5DF91F009A56FE /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3D81EC251C5BDB7100CD6275 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D81EC261C5BDB7100CD6275 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D81EC4A1C5BDE3200CD6275 /* PYHomeViewController.h */,
+				3D81EC4B1C5BDE3200CD6275 /* PYHomeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D81EC271C5BDB7100CD6275 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F23AD1C5CED150050E21B /* PYHomeView.h */,
+				3D3F23AE1C5CED150050E21B /* PYHomeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D81EC311C5BDC4700CD6275 /* BaseHandler */ = {
+			isa = PBXGroup;
+			children = (
+				3D81EC321C5BDC4700CD6275 /* BaseHandler.h */,
+				3D81EC331C5BDC4700CD6275 /* BaseHandler.m */,
+			);
+			path = BaseHandler;
+			sourceTree = "<group>";
+		};
+		3D81EC341C5BDC4700CD6275 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				3D81EC411C5BDD6E00CD6275 /* BaseModel.h */,
+				3D81EC421C5BDD6E00CD6275 /* BaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		3D81EC371C5BDC4700CD6275 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				3D81EC381C5BDC4700CD6275 /* BaseView.h */,
+				3D81EC391C5BDC4700CD6275 /* BaseView.m */,
+				3D35A3271C5DD8AC009A56FE /* BaseViewCell.h */,
+				3D35A3281C5DD8AC009A56FE /* BaseViewCell.m */,
+				3DB55D641C8C48E700278945 /* BaseCollectionViewCell.h */,
+				3DB55D651C8C48E700278945 /* BaseCollectionViewCell.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		3D81EC3A1C5BDC4700CD6275 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D81EC3E1C5BDCB600CD6275 /* BaseViewController.h */,
+				3D81EC3F1C5BDCB600CD6275 /* BaseViewController.m */,
+				3D81EC441C5BDD9800CD6275 /* BaseTableViewController.h */,
+				3D81EC451C5BDD9800CD6275 /* BaseTableViewController.m */,
+				3D81EC5F1C5BE27C00CD6275 /* BaseNavigationViewController.h */,
+				3D81EC601C5BE27C00CD6275 /* BaseNavigationViewController.m */,
+				3DBDF5581C8C462F0010E3E4 /* BaseCollectionViewController.h */,
+				3DBDF5591C8C462F0010E3E4 /* BaseCollectionViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		3D8F3DCD1C64748B00AC8C5C /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				3D8F3DCE1C64748B00AC8C5C /* Base64.h */,
+				3D8F3DCF1C64748B00AC8C5C /* Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		3D8F3DD11C6474C100AC8C5C /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				3D8F3DD21C6474D800AC8C5C /* PYSurveyHandler.h */,
+				3D8F3DD31C6474D800AC8C5C /* PYSurveyHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		3DA270B51C5CAED100745A64 /* AppNetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				3DA270B61C5CAEFA00745A64 /* PYAppNetWorkClient.h */,
+				3DA270B71C5CAEFA00745A64 /* PYAppNetWorkClient.m */,
+			);
+			path = AppNetworkClient;
+			sourceTree = "<group>";
+		};
+		3DA5EF431C5E69EA002EA14F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3DA5EF441C5E69EA002EA14F /* Reachability.h */,
+				3DA5EF451C5E69EA002EA14F /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		3DB55D6A1C8C626200278945 /* QRCodeScan */ = {
+			isa = PBXGroup;
+			children = (
+				3DB55D6B1C8C626200278945 /* LJQRView.h */,
+				3DB55D6C1C8C626200278945 /* LJQRView.m */,
+				3DB55D6D1C8C626200278945 /* LJQRViewController.h */,
+				3DB55D6E1C8C626200278945 /* LJQRViewController.m */,
+			);
+			path = QRCodeScan;
+			sourceTree = "<group>";
+		};
+		3DB55D711C8C66C500278945 /* SJAvatarBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				3DB55D721C8C66C500278945 /* SJAvatarBrowser.h */,
+				3DB55D731C8C66C500278945 /* SJAvatarBrowser.m */,
+			);
+			path = SJAvatarBrowser;
+			sourceTree = "<group>";
+		};
+		3DC6CA901C8984780058888F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				3DC6CA911C8984850058888F /* PYMenu.h */,
+				3DC6CA921C8984850058888F /* PYMenu.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		BED4D35CBBCF04D9452CFF07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D88A1B545D08F4B8ED4F7774 /* Pods.debug.xcconfig */,
+				956FC0546F16337B7FD255C3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E90F2E6261901F8DA3FE7961 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D44ABB91C61A5E4009D60C5 /* JavaScriptCore.framework */,
+				ADD3F108A3031CEB7D25CDF0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D06E0F31C5BD2340058AEDD /* hpj_refactor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D06E10B1C5BD2340058AEDD /* Build configuration list for PBXNativeTarget "hpj_refactor" */;
+			buildPhases = (
+				9C268D03FBB11123EAF5045F /* Check Pods Manifest.lock */,
+				3D06E0F01C5BD2340058AEDD /* Sources */,
+				3D06E0F11C5BD2340058AEDD /* Frameworks */,
+				3D06E0F21C5BD2340058AEDD /* Resources */,
+				7DC7580F7A4855F599E8C603 /* Embed Pods Frameworks */,
+				FCD440F6AA31619C4940BB0D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hpj_refactor;
+			productName = hpj_refactor;
+			productReference = 3D06E0F41C5BD2340058AEDD /* hpj_refactor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D06E0EC1C5BD2340058AEDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Shanghai Youyou Finance Information Technology Co.,Ltd";
+				TargetAttributes = {
+					3D06E0F31C5BD2340058AEDD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3D06E0EF1C5BD2340058AEDD /* Build configuration list for PBXProject "hpj_refactor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D06E0EB1C5BD2340058AEDD;
+			productRefGroup = 3D06E0F51C5BD2340058AEDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D06E0F31C5BD2340058AEDD /* hpj_refactor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D06E0F21C5BD2340058AEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D06E1071C5BD2340058AEDD /* LaunchScreen.storyboard in Resources */,
+				3D06E1041C5BD2340058AEDD /* Assets.xcassets in Resources */,
+				3D2DED3B1C9E55B2004D5E8D /* wenjuan in Resources */,
+				3D3F239A1C5CD7B90050E21B /* Localizable.strings in Resources */,
+				3D06E1021C5BD2340058AEDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DC7580F7A4855F599E8C603 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C268D03FBB11123EAF5045F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCD440F6AA31619C4940BB0D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D06E0F01C5BD2340058AEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3F24041C5DBE910050E21B /* PYImproveInfoView.m in Sources */,
+				3DB55D6F1C8C626200278945 /* LJQRView.m in Sources */,
+				3D44ABD11C620A90009D60C5 /* NSSet+IgnoreKeys.m in Sources */,
+				3D3F23FF1C5DBE910050E21B /* PYDownloadedTaskListViewController.m in Sources */,
+				3DBDF55A1C8C462F0010E3E4 /* BaseCollectionViewController.m in Sources */,
+				3D44ABCC1C61C11A009D60C5 /* PYQuestion.m in Sources */,
+				3DB55D691C8C490B00278945 /* PYQuestionItemCollectionVIewCell.m in Sources */,
+				3D35A32C1C5DD8BE009A56FE /* PYTaskViewCell.m in Sources */,
+				3D3F23DB1C5DB6300050E21B /* PYManagedQuestionnaire.m in Sources */,
+				3D35A3361C5E0DBD009A56FE /* PYUndownloadTaskDetailViewController.m in Sources */,
+				3D25FC7E1C79980E007F34FE /* PYNetworkUnavailableView.m in Sources */,
+				3DD43D891C608046008F2C6E /* PYJSVersion.m in Sources */,
+				3D3F23D61C5D32580050E21B /* PYManagedUser+CoreDataProperties.m in Sources */,
+				3D81EC611C5BE27C00CD6275 /* BaseNavigationViewController.m in Sources */,
+				3D44ABC71C61BDB1009D60C5 /* PYManagedQuestion.m in Sources */,
+				3DB55D701C8C626200278945 /* LJQRViewController.m in Sources */,
+				3D8F3DD41C6474D800AC8C5C /* PYSurveyHandler.m in Sources */,
+				3D81EC431C5BDD6E00CD6275 /* BaseModel.m in Sources */,
+				3D977B251C5E3B6A005B4B36 /* PYUndownloadTaskDetailView.m in Sources */,
+				3D81EC3B1C5BDC4700CD6275 /* BaseHandler.m in Sources */,
+				3D3F240D1C5DC1760050E21B /* PYTask.m in Sources */,
+				3D8F3DDA1C647B4800AC8C5C /* NSDate+localString.m in Sources */,
+				3D3F23AB1C5CE1670050E21B /* INTULocationManager.m in Sources */,
+				3DDE36561C9C4E840062FAD1 /* PYHistoryRecord.m in Sources */,
+				3D81EC401C5BDCB600CD6275 /* BaseViewController.m in Sources */,
+				3D4769711C5C537A00ED5CDE /* PYDefaultTheme.m in Sources */,
+				3D3F23C11C5D00860050E21B /* PYQuestionnaireManager.m in Sources */,
+				3DB55D661C8C48E700278945 /* BaseCollectionViewCell.m in Sources */,
+				3D79965B1C9C6DCC001F2DB8 /* PYLocationViewController.m in Sources */,
+				3D44ABC21C61ADE0009D60C5 /* PYJsCoreContext.m in Sources */,
+				3D44ABC81C61BDB1009D60C5 /* PYManagedQuestion+CoreDataProperties.m in Sources */,
+				3D3F240A1C5DBF360050E21B /* PYTaskHanlder.m in Sources */,
+				3D81AB4B1C9D05510022EECD /* PYCommonTaskListViewController.m in Sources */,
+				3D3F24031C5DBE910050E21B /* PYLoginViewController.m in Sources */,
+				3D3F24101C5DC1DC0050E21B /* PYUndownloadTaskListViewController.m in Sources */,
+				3D81AB4E1C9D1B750022EECD /* UIView+ActivityIndicator.m in Sources */,
+				3DB55D741C8C66C500278945 /* SJAvatarBrowser.m in Sources */,
+				3D3F24131C5DC1F10050E21B /* PYHistoryTaskListViewController.m in Sources */,
+				3D4E3BA31C639A6D00DAEB39 /* NSString+Extension.m in Sources */,
+				3D0050361C5F13CC005CD834 /* NSObject+Swizzling.m in Sources */,
+				3DA5EF4C1C5E6B2A002EA14F /* UIAlertView+Blocks.m in Sources */,
+				3D81EC461C5BDD9800CD6275 /* BaseTableViewController.m in Sources */,
+				3D4769811C5C58E000ED5CDE /* UIImage+Color.m in Sources */,
+				3DA5EF4F1C5E6EB3002EA14F /* UIButton+ActivityIndicatorView.m in Sources */,
+				3D81AB511C9DA82E0022EECD /* PYHistoryTaskDetailViewController.m in Sources */,
+				3D3F24001C5DBE910050E21B /* PYUserHandler.m in Sources */,
+				3D3F23D51C5D32580050E21B /* PYManagedUser.m in Sources */,
+				3D25FC851C799D7E007F34FE /* RMDownloadIndicator.m in Sources */,
+				3DC6CA931C8984850058888F /* PYMenu.m in Sources */,
+				3D3F23BD1C5CFB4B0050E21B /* PYLoginUserManager.m in Sources */,
+				3D3F24061C5DBE910050E21B /* PYLoginView.m in Sources */,
+				3D3F24011C5DBE910050E21B /* PYUser.m in Sources */,
+				3D35A3291C5DD8AC009A56FE /* BaseViewCell.m in Sources */,
+				3D3F24021C5DBE910050E21B /* PYImproveInfoViewController.m in Sources */,
+				3D3F23AF1C5CED150050E21B /* PYHomeView.m in Sources */,
+				3D8F3DD01C64748B00AC8C5C /* Base64.m in Sources */,
+				3DB55D771C8C6B2800278945 /* PYSearchViewController.m in Sources */,
+				3D81EC4C1C5BDE3200CD6275 /* PYHomeViewController.m in Sources */,
+				3D25FC771C799801007F34FE /* HPJAlertView.m in Sources */,
+				3D3F23AC1C5CE1670050E21B /* INTULocationRequest.m in Sources */,
+				3D4E3BA01C63940300DAEB39 /* UIImage+Resize.m in Sources */,
+				3D06E0FC1C5BD2340058AEDD /* PYAppDelegate.m in Sources */,
+				3D3F24051C5DBE910050E21B /* PYImproveTitleView.m in Sources */,
+				3DA5EF461C5E69EA002EA14F /* Reachability.m in Sources */,
+				3D3F23DC1C5DB6300050E21B /* PYManagedQuestionnaire+CoreDataProperties.m in Sources */,
+				3D81EC3D1C5BDC4700CD6275 /* BaseView.m in Sources */,
+				3DA11BC81C6307130095D664 /* PYQuestionnaireButtonItem.m in Sources */,
+				3D47697A1C5C561900ED5CDE /* PYLogicManager.m in Sources */,
+				3DB5C28E1C8B67B50021E69D /* PYQuestionItemListViewController.m in Sources */,
+				3D8F3DD71C647A2600AC8C5C /* PYImagePath.m in Sources */,
+				3D4769741C5C53A500ED5CDE /* PYThemeManager.m in Sources */,
+				3D81AB481C9CF0110022EECD /* PYUserHomeViewController.m in Sources */,
+				3D3F23FE1C5DBE910050E21B /* PYSurveyViewController.m in Sources */,
+				3DA270B81C5CAEFA00745A64 /* PYAppNetWorkClient.m in Sources */,
+				3DC6CA7A1C8971080058888F /* PYQuestionnaireSection.m in Sources */,
+				3D06E0F91C5BD2340058AEDD /* main.m in Sources */,
+				3D3F23B21C5CF89B0050E21B /* PYQuestionnaire.xcdatamodeld in Sources */,
+				3D25FC7D1C79980E007F34FE /* PYLoadingView.m in Sources */,
+				3DB5C28B1C8B66D70021E69D /* PYQuestionItem.m in Sources */,
+				3D25FC841C799D7E007F34FE /* RMDisplayLabel.m in Sources */,
+				3DDE36591C9C5C190062FAD1 /* PYSearchRecordViewCell.m in Sources */,
+				3DA270BF1C5CC06700745A64 /* NSString+Check.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D06E1001C5BD2340058AEDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D06E1011C5BD2340058AEDD /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D06E1051C5BD2340058AEDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D06E1061C5BD2340058AEDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D3F239C1C5CD7B90050E21B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3F239B1C5CD7B90050E21B /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D06E1091C5BD2340058AEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D06E10A1C5BD2340058AEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D06E10C1C5BD2340058AEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88A1B545D08F4B8ED4F7774 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/hpj_refactor/PYPrefixHeader.pch";
+				INFOPLIST_FILE = hpj_refactor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liantai.hpj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D06E10D1C5BD2340058AEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956FC0546F16337B7FD255C3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/hpj_refactor/PYPrefixHeader.pch";
+				INFOPLIST_FILE = hpj_refactor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liantai.hpj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D06E0EF1C5BD2340058AEDD /* Build configuration list for PBXProject "hpj_refactor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D06E1091C5BD2340058AEDD /* Debug */,
+				3D06E10A1C5BD2340058AEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D06E10B1C5BD2340058AEDD /* Build configuration list for PBXNativeTarget "hpj_refactor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D06E10C1C5BD2340058AEDD /* Debug */,
+				3D06E10D1C5BD2340058AEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D3F23B01C5CF89B0050E21B /* PYQuestionnaire.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D3F23B11C5CF89B0050E21B /* PYQuestionnaire.xcdatamodel */,
+			);
+			currentVersion = 3D3F23B11C5CF89B0050E21B /* PYQuestionnaire.xcdatamodel */;
+			path = PYQuestionnaire.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D06E0EC1C5BD2340058AEDD /* Project object */;
+}

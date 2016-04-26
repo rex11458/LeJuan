@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="PYManagedQuestion" representedClassName="PYManagedQuestion" syncable="YES">
+        <attribute name="answerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="result" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subQuestionId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="questionnaire" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PYManagedQuestionnaire" inverseName="questions" inverseEntity="PYManagedQuestionnaire" syncable="YES"/>
+    </entity>
+    <entity name="PYManagedQuestionnaire" representedClassName="PYManagedQuestionnaire" syncable="YES">
+        <attribute name="addr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addrx" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arrivalTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departureTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isArrival" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isDeparture" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="leaveRemark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paperId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paperInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paperTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prjName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="progress" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="province" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resultId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resultStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PYManagedQuestion" inverseName="questionnaire" inverseEntity="PYManagedQuestion" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PYManagedUser" inverseName="questionnaires" inverseEntity="PYManagedUser" syncable="YES"/>
+    </entity>
+    <entity name="PYManagedUser" representedClassName="PYManagedUser" syncable="YES">
+        <attribute name="loginName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userCity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userLoginId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPassword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userRealname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="questionnaires" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PYManagedQuestionnaire" inverseName="user" inverseEntity="PYManagedQuestionnaire" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PYManagedQuestion" positionX="-315" positionY="18" width="128" height="135"/>
+        <element name="PYManagedQuestionnaire" positionX="-137" positionY="-160" width="128" height="435"/>
+        <element name="PYManagedUser" positionX="-461" positionY="60" width="128" height="180"/>
+    </elements>
+</model>

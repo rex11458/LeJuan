@@ -1,0 +1,213 @@
+th:not(.subcol), td:not(.subcol){
+	white-space: nowrap;
+}
+.question {
+	margin: 15px 0 15px 0;
+}
+
+.list-group {
+	margin-bottom: 0px;
+}
+
+.list-group-item {
+	position: relative;
+	display: block;
+	padding: 5px 24px 5px 5px;
+	margin-bottom: -1px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.required {
+	color: #e02222;
+	font-size: 12px;
+	padding-left: 2px;
+}
+
+.error {
+	color: #b94a48;
+	border-color: #b94a48;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.help-block-error {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #b94a48;
+	font-weight: normal;
+}
+
+.alert-warning {
+	margin: 5px 0 0 0; 
+}
+
+.rigidityAction, a.rigidityAction:hover, a.rigidityAction:visited{ 
+	text-decoration:none; 
+	color:orange;
+	display: block;
+}
+
+.hidden2 {
+	display: none;
+}
+
+.img-thumbnail-200 {
+	display: inline-block;
+	height: auto;
+	width: 200px;
+	padding: 4px;
+	line-height: 1.4285;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.img-thumbnail-60 {
+	display: inline-block;
+	height: auto;
+	width: 60px;
+	padding: 4px;
+	line-height: 1.4285;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.matchedq {
+	background: #ff0 !important;
+}
+
+.refed {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+
+.form-control-inline {
+	display: inline-block !important;
+}
+
+.input-small {
+	min-width: 200px !important;
+	width:50% !important;
+}
+
+.inline {
+	display: inline-block !important;
+}
+
+.no-left-padding {
+	padding-left: 0 !important;
+}
+
+.no-left-margin {
+	margin-left: 0 !important;
+}
+
+.margin-top-10 {
+	margin-top: 10px !important;
+}
+
+.margin-top-20 {
+	margin-top: 20px !important;
+}
+
+.margin-top-30 {
+	margin-top: 30px !important;
+}
+
+.margin-top-40 {
+	margin-top: 40px !important;
+}
+
+.margin-top-50 {
+	margin-top: 50px !important;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px !important;
+}
+
+.margin-bottom-15 {
+	margin-bottom: 15px !important;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px !important;
+}
+
+.margin-bottom-25 {
+	margin-bottom: 25px !important;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px !important;
+}
+
+.margin-bottom-40 {
+	margin-bottom: 40px !important;
+}
+
+.margin-right-10 {
+	margin-right: 10px !important;
+}
+
+.margin-right-20 {
+	margin-right: 20px !important;
+}
+
+.margin-left-10 {
+	margin-left: 10px !important;
+}
+
+.margin-left-0 {
+	margin-left: 0 !important;
+}
+
+.padding-left-0 {
+	padding-left: 0 !important;
+}
+
+.input-group {
+	width:100%;
+}
+
+.input-group-btn {
+	position: relative;
+	font-size: 14px;
+	white-space: nowrap;
+}
+
+.glyphicon {
+	cursor: pointer;
+}
+
+.glyphicon-camera, .glyphicon-record, .glyphicon-facetime-video, .glyphicon-open-file {
+	font-size: 24px;
+}
+
+.glyphicon-calendar {
+	font-size: 20px;
+	top: 7px;
+}
+
+.glyphicon-time {
+	font-size: 20px;
+	top: 7px;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.4285;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+.loading {
+	background: transparent url(../img/loading.gif);
+}
+.ime-disabled{ime-mode:disabled;}

@@ -1,0 +1,49 @@
+//
+//  PYPrefixHeader.pch
+//  hpj_refactor
+//
+//  Created by LiuRex on 16/1/30.
+//  Copyright © 2016年 Shanghai Youyou Finance Information Technology Co.,Ltd. All rights reserved.
+//
+
+#ifndef PYPrefixHeader_h
+#define PYPrefixHeader_h
+
+//Config
+#import "AppConfig.h"
+#import "AppUrlConfig.h"
+
+//UIKit
+#import "BaseViewController.h"
+
+//Extentsion
+#import "PYExtension.h"
+
+//common
+#import "PYCommon.h"
+
+//Tools
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <MJExtension/MJExtension.h>
+#import <MJRefresh/MJRefresh.h>
+#import <FCFileManager/FCFileManager.h>
+#import "Reachability.h"
+
+
+//user
+#import "PYLoginUserManager.h"
+#import "PYQuestionnaireManager.h"
+
+#endif /* PYPrefixHeader_h */
+
+//自定义Log
+#ifdef DEBUG
+
+#define PYLog(format, ...) NSLog((@"[file:%s]\n" "[function:%s]\n" "[row:%d]\n" format), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#else
+
+#define PYLog(...);
+
+#endif
+

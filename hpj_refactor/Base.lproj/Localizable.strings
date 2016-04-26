@@ -1,0 +1,25 @@
+/* 
+  Localization.strings
+  hpj_refactor
+
+  Created by LiuRex on 16/1/30.
+  Copyright © 2016年 Shanghai Youyou Finance Information Technology Co.,Ltd. All rights reserved.
+*/
+"isLogging" = "正在登录...";
+"noTask" = "还没有下载的任务";
+"noNetwork" = "似乎没有网络";
+"WWANNetworkRemaind" = "当前为移动蜂窝网络,确定下载?";
+"WWANNetworkUploadRemaind" = "当前为移动蜂窝网络,确定上传?";
+
+"doQuestionnire" = "去做问卷";
+"QuestionnaireRemaind" = "是否在后台继续下载问卷?";
+"noDownloadQuestionnaire" = "还没有已下载的问卷";
+"QuestionnaireSavedError" = "保存问卷出错";
+"NoMoreData" = "没有更多数据了";
+"dataAlerted" = "保存修改数据后返回?";
+"searchRemaind" = "请输入搜索内容";
+"NoQuestionItem" = "暂无题盘数据";
+"cameraUnavaliable" = "没有摄像头或摄像头不可用";
+"NOCameraAndPhoto" = "不能拍照或者选择图片,请检查";
+"sureLogout" = "确定退出?";
+"isArrival"  = "是否进店?";

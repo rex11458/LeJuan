@@ -1,0 +1,45 @@
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+div.radio span{
+	padding: 1px 0 0px 22px;
+	background: transparent url(radio.png) no-repeat;
+	background-size: 17px 17px;
+}
+
+div.radio .checked {
+	background: transparent url(radio1.png) no-repeat;
+	background-size: 17px 17px;
+}
+
+div.radio .disabled {
+	background: transparent url(radio2.png) no-repeat;
+	background-size: 17px 17px;
+	cursor: not-allowed;
+}
+
+div.checkbox span{
+	padding: 2px 0 0px 24px;
+	background: transparent url(checkbox.png) no-repeat;
+	background-size: 17px 17px;
+}
+
+div.checkbox .checked {
+	background: transparent url(checkbox1.png) no-repeat;
+	background-size: 17px 17px;
+}
+
+div.checkbox .disabled {
+	background: transparent url(checkbox2.png) no-repeat;
+	background-size: 17px 17px;
+	cursor: not-allowed;
+}
+
+div.radio input[type=radio], div.checkbox input[type=checkbox]{
+	display: none !important;
+}
+
